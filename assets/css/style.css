@@ -1,0 +1,45 @@
+header{
+    height: 6em;
+    padding: 5em;
+    background-image: url(../img/fondobg.avif) ;
+    color: aliceblue;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+}
+body {
+    font-family: "Share Tech", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: auto;
+  }
+.productos {
+    width: 80%;
+    margin: auto;
+    }
+.productos td {
+    width: 50%;
+    padding: 2em;
+    font-size: 1.5em;
+    }
+.productos img {
+    width: 100%;
+    border: solid 1px #ddd;
+    }
+footer{
+    padding: 2em;
+    font-size: 1.5em;
+    background-image: url(../img/fondobg.avif) ;
+    color: rgb(247, 250, 248);
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    
+}
+header > p{
+    font-weight: bold;
+}
+h1{
+    display: inline-block;
+    background-color: black;
+}
